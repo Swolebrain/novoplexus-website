@@ -159,12 +159,18 @@
     <script>
         document.getElementById("submit").addEventListener("click", sendEmail);
         function sendEmail(event){
+            document.getElementById("submit").removeEventListener("click",sendEmail);
+            document.getElementById("submit").innerText = "Please wait";
             event.preventDefault();
             var xhr = new XMLHttpRequest();
             xhr.open('POST', 'https://zw859qutud.execute-api.us-east-1.amazonaws.com/prod/novoplexus-website-lambda');
             xhr.onreadystatechange = function(e){
                 if (this.status !== 200) return alert("something went wrong: " + JSON.stringify(e));
-                if (xhr.readyState == 4) alert("Message sent!");
+                if (xhr.readyState == 4) {
+                    alert("Message sent!");
+                    document.getElementById("submit").addEventListener("click",sendEmail);
+                    document.getElementById("submit").innerText = "Submit";
+                }
             }
             xhr.send(JSON.stringify(getFormJSON()));
         }
