@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NovoPlexus</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <nav>
+        <div class="nav__container">
+            <img src="res/novoplexus.png" alt="NovoPlexus" class="nav__logo">
+            <a class="nav__button" href="#home"><h3>Home</h3></a>
+            <a class="nav__button" href="#about"><h3>About</h3></a>
+            <a class="nav__button" href="#contact"><h3>Contact</h3></a>
+            <a class="nav__button" href="#team"><h3>Team</h3></a>
+        </div>
+    </nav>
+    <section class="hero" id="home">
+        <canvas id="space" class="hero"></canvas>
+        <img src="res/novoplexus.png" alt="NovoPlexus" class="hero__logo">
+        <h1>Welcome to NovoPlexus</h1>
+        <h3>Blockchain-powered</h3>
+        <h3>AI-driven</h3>
+        <h3>Healthcare Marketplace</h3>
+    </section>
+    <div id="about"></div>
+    <section class="content responsive-reverse" >
+        <div class="col">
+            <h2>Blockchain-powered</h2>
+            <p>
+                NovoPlexus uses a secure, de-centralized network, which encrypts and remembers the location of each part of your medical record without vulnerable servers. Now,
+                just like your financial records, you’ll have total access to your medical records through your unique NovoPlexus blockchain ID, even if the records are in
+                many different places.  Doctors and other healthcare providers can also enjoy access to the network without changing their current office systems.
+            </p>
+        </div>
+        <div class="col">
+            <img
+                    class="content__vector"
+                    src="res/blockchain.svg"
+                    alt="Blockchains are decentralized networks with no single point of failure for security">
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="col">
+            <img
+                    class="content__vector"
+                    src="res/brain.svg" alt="Artificial Intelligence is the future of business">
+        </div>
+        <div class="col">
+            <h2>AI-driven</h2>
+            <p>
+                Social media and shopping networks use Artificial Intelligence (AI) to help learn more about their customers and so does NovoPlexus. AI can help pick up patterns
+                in your health, like when you typically see the doctor most often, to help make useful suggestions about diet, nutrition or preventative care. AI can also help
+                your doctor quickly find the most important parts of your records to help you feel better faster.
+            </p>
+        </div>
+    </section>
+
+    <section class="content responsive-reverse">
+        <div class="col">
+            <h2>Healthcare Marketplace</h2>
+            <p>
+                Beyond consolidating your medical records, the NovoPlexus network allows you to easily and safely interact with the entire medical community in real-time.
+                Imaging having doctors, hospitals, pharmacies, insurance companies and a vast array of health and wellness professionals all at your fingertips!  This
+                dramatically increases efficiency, saving time and money for everyone, even if you don’t have insurance.  And by paying the same, low access charge, everyone
+                is treated equally on the network.
+            </p>
+        </div>
+        <div class="col">
+            <img
+                    class="content__vector"
+                    src="res/hexagons.svg" alt="NovoPlexus is a marketplace for health services">
+        </div>
+    </section>
+
+    <section class="contact"  id="contact">
+        <div class="contact__container">
+            <h2>Contact Us</h2>
+            <p class="contact__cta">
+                Join the NovoPlexus Blockchain revolution <br>
+                and take charge of your healthcare!
+            </p>
+            <form action="">
+                <input type="text" id="name" placeholder="Name"  class="contact__input">
+                <input type="text" id="email" placeholder="Email" class="contact__input">
+
+                <textarea class="contact__textarea"
+                          placeholder="Questions or Comments?"
+                          name="questions" id="questions" rows="10"></textarea>
+                <textarea class="contact__textarea"
+                          placeholder="What frustrates you most about healthcare?"
+                          name="frustrations" id="frustrations" rows="10"></textarea>
+
+                <div class="contact__btn-container">
+                    <button class="contact__button" id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
+
+    </section>
+
+    <br><br><br>
+    <h2 class="center-text">About the Founders</h2>
+    <section class="content about-founders" id="team">
+        <div class="col justify-start">
+            <img class="portrait" src="res/will.png" alt="William Reisacher, MD">
+            <h3>William Reisacher, MD</h3>
+            <h4>Co-Founder and Senior Medical Director</h4>
+            <p class="center-text">
+                Dr. Reisacher is an Associate Professor of Otolaryngology - Head and Neck Surgery and Director of Allergy
+                Services at Weill Cornell Medical College/NewYork-Presbyterian Hospital in NYC. He graduated from Cornell
+                University in 1990 and graduated with Distinction in Research from The Mount Sinai School of Medicine in 1994. Dr.
+                Reisacher is a Fellow of the American Academy of Otolaryngic Allergy (AAOA), where he has also served on the
+                Board of Directors. He has been a co-founder, inventor and senior advisor for several early-stage companies
+                in the biotechnology and digital health-tech spaces.
+            </p>
+        </div>
+        <div class="col justify-start">
+            <img class="portrait" src="res/prakash.png" alt="Prakash Hosalli">
+            <h3>Prakash Hosalli</h3>
+            <h4>Co-Founder and CEO</h4>
+            <p class="center-text">
+                Prakash Hosalli is an Entrepreneurial leader focused on bringing cutting edge technologies including Blockchain,
+                Artificial Intelligence, Machine Learning, and Big Data to solve vexing problems in Healthcare. He’s a graduate of
+                National Defence Academy, Pune India and Indian Military Academy with 8 years of combat experience in the Indian
+                Army as a Paratrooper/Infantry officer. He has more than 18 years of Technology and Business experience as Program,
+                Project, and Product manager running large multi-national teams, handling Sales, P&L and Business relationship
+                with marquee clients across US.
+            </p>
+        </div>
+    </section>
+
+
+    <footer>
+        <section class="icons">
+            <a href="https://www.facebook.com/NovoPlexus-Inc-46509490723819/">
+                <img class="icon" src="res/facebook.svg" alt="Novoplexus facebook">
+            </a>
+            <a href="https://www.linkedin.com/company/novoplexus/">
+                <img class="icon" src="res/linkedin.svg" alt="Novoplexus linked in">
+            </a>
+            <a href="https://twitter.com/NovoPlexus">
+                <img class="icon" src="res/twitter.svg" alt="Novoplexus twitter">
+            </a>
+        </section>
+        <p class="smaller">Copyright NovoPlexus Inc. 2018. Made in NYC. All rights reserved</p>
+
+    </footer>
+
+
+    <script src="animation.js"> </script>
+    <script>
+        document.getElementById("submit").addEventListener("click", sendEmail);
+        function sendEmail(event){
+            event.preventDefault();
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'https://zw859qutud.execute-api.us-east-1.amazonaws.com/prod/novoplexus-website-lambda');
+            xhr.onreadystatechange = function(e){
+                if (this.status !== 200) return alert("something went wrong: " + JSON.stringify(e));
+                if (xhr.readyState == 4) alert("Message sent!");
+            }
+            xhr.send(JSON.stringify(getFormJSON()));
+        }
+        function getFormJSON(){
+            return {
+                text: `
+                    <h3>Sender name: ${document.getElementById('name').value}</h3>
+                    <h3>Sender email: ${document.getElementById('email').value}</h3>
+                    <br><br>
+                    <h3>Questions:</h3> <br>
+                    <p>${document.getElementById('questions').value}</p>
+                    <br><br>
+                    <h3>Frustrations:</h3> <br>
+                    <p>${document.getElementById('frustrations').value}</p>
+                `
+            }
+        }
+    </script>
+</body>
+</html>

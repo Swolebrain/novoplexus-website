@@ -1,0 +1,41 @@
+<svg width="371px" height="430px" viewBox="0 0 371 430" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Artboard" transform="translate(-924.000000, -1023.000000)" stroke="#000000" stroke-width="10">
+            <g id="Group-11" transform="translate(230.000000, 1016.000000)">
+                <g id="Icon" transform="translate(699.000000, 12.000000)">
+                    <g id="Group-4" transform="translate(0.000000, 144.000000)" stroke-linejoin="round">
+                        <polyline id="Path-2" points="41.8300781 2.56835938 0.345703125 27.2421875 62.046875 62.671875 124.342773 27.2421875 79 0.66015625"></polyline>
+                        <polyline id="Path-3" points="0.40625 27.0253906 0.40625 100.635363 62.4501953 135.76416 124.389648 100.635363 124.389648 27.3183489"></polyline>
+                        <path d="M62.5,62.5 L62.5,135.5" id="Line-4"></path>
+                    </g>
+                    <g id="Group-4-Copy" transform="translate(236.000000, 144.000000)" stroke-linejoin="round">
+                        <polyline id="Path-2" points="41.8300781 2.56835938 0.345703125 27.2421875 62.046875 62.671875 124.342773 27.2421875 79 0.66015625"></polyline>
+                        <polyline id="Path-3" points="0.40625 27.0253906 0.40625 100.635363 62.4501953 135.76416 124.389648 100.635363 124.389648 27.3183489"></polyline>
+                        <path d="M62.5,62.5 L62.5,135.5" id="Line-4"></path>
+                    </g>
+                    <polyline id="Path-4" stroke-linejoin="round" points="210.535156 91.359375 297.906795 91.359375 297.906795 169.548813"></polyline>
+                    <polyline id="Path-4-Copy" stroke-linejoin="round" transform="translate(106.314181, 130.094719) scale(-1, 1) translate(-106.314181, -130.094719) " points="62.6283613 91 150 91 150 169.189438"></polyline>
+                    <polyline id="Path-4-Copy-3" stroke-linejoin="round" points="211 361 298.371639 361 298.371639 302.179688"></polyline>
+                    <polyline id="Path-4-Copy-2" stroke-linejoin="round" transform="translate(106.685819, 331.068359) scale(-1, 1) translate(-106.685819, -331.068359) " points="63 361 150.371639 361 150.371639 301.136719"></polyline>
+                    <g id="Group-3" transform="translate(121.000000, 274.000000)">
+                        <polygon id="Path-2-Copy-2" stroke-linejoin="round" points="0 36.8300781 61.7011719 72.2597656 123.99707 36.8300781 61.7011719 0"></polygon>
+                        <polyline id="Path-3-Copy-2" stroke-linejoin="round" points="0 110.609973 62.0439453 145.73877 123.983398 110.609973"></polyline>
+                        <path d="M62.5,72.5 L62.5,145.5" id="Line-4-Copy-2" stroke-linejoin="round"></path>
+                        <path d="M0,38 L0,69.7148611" id="Path-6"></path>
+                        <path d="M124,38 L124,69.7148611" id="Path-6-Copy"></path>
+                    </g>
+                    <g id="Group-3-Copy" transform="translate(121.000000, 0.000000)">
+                        <polygon id="Path-2-Copy-2" stroke-linejoin="round" points="0 36.8300781 61.7011719 72.2597656 123.99707 36.8300781 61.7011719 0"></polygon>
+                        <polyline id="Path-3-Copy-2" stroke-linejoin="round" points="0 110.609973 62.0439453 145.73877 123.983398 110.609973"></polyline>
+                        <path d="M62.5,72.5 L62.5,145.5" id="Line-4-Copy-2" stroke-linejoin="round"></path>
+                        <path d="M0,38 L0,69.7148611" id="Path-6"></path>
+                        <path d="M124,38 L124,69.7148611" id="Path-6-Copy"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

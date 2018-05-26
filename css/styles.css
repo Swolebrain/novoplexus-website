@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('../res/fonts/AvenirLTStd-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('../res/fonts/AvenirLTStd-Heavy.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+* {
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Avenir;
+    font-size: calc(16px);
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: Georgia, "Palatino Linotype", serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 1.75rem;
+}
+p{
+    line-height: 1.65rem;
+}
+.center-text{
+    text-align: center;
+}
+
+nav{
+    position: fixed;
+    width: 100vw;
+    background-color: white;
+    -webkit-box-shadow: 0 3px 5px rgba(33,33,33,0.3);
+    box-shadow: 0 3px 5px rgba(33,33,33,0.3);
+}
+.nav__container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.nav__button{
+    text-decoration: none;
+    color: black;
+    margin: 0 2rem;
+}
+.nav__logo{
+    width: 10vw;
+    height: 7.5vw;
+    max-width: 50px;
+    max-height: 37.5px;
+    margin: 0.5rem;
+}
+
+.hero{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100vh;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.5)), color-stop(92%, rgba(255,255,255,0.5)), to(rgba(248,87,55,0.33)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 92%, rgba(248,87,55,0.33) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 92%, rgba(248,87,55,0.33) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 92%, rgba(248,87,55,0.33) 100%);
+}
+#space{
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -10;
+}
+.hero h3 {
+    margin-top: 0;
+}
+@media screen and (max-width: 768px) and (min-height: 900px){
+    .hero{
+        height: 60vh;
+    }
+}
+.hero__logo{
+    width: 30vw;
+    min-width: 160px;
+    height: 30vw;
+    min-height: 120px;
+    max-width: 80px;
+    max-height: 60px;
+}
+
+
+.content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80vw;
+    max-width: 1060px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 3rem auto;
+    text-align: left;
+}
+@media screen and (max-width: 768px){
+    .content{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .responsive-reverse{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+}
+.content h2 {
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+}
+
+
+.col{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 400px;
+    flex-basis: 400px;
+    -webkit-box-flex:1;
+    -ms-flex:1;
+    flex:1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+}
+
+.content__vector{
+    max-height: 25vw;
+    max-width: 25vw;
+}
+@media screen and (min-width: 1060px){
+    .content__vector{
+        max-height: 16vw;
+        max-width: 16vw;
+    }
+}
+@media screen and (max-width: 600px){
+    .content__vector{
+        max-height: 45vw;
+        max-width: 45vw;
+    }
+}
+
+.contact{
+    background-color: #F85737;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+}
+.contact__container{
+    max-width: 755px;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.contact__cta{
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+}
+
+.contact__input{
+    display: block;
+    margin: 0.5rem 0;
+    width: 378px;
+    max-width: calc(100vw - 6rem);
+    padding: 0.66rem;
+}
+
+.contact__textarea{
+    width:100%;
+    margin: 0.5rem 0;
+}
+.contact__btn-container{
+    text-align: right;
+}
+.contact__button{
+    color: white;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 0.75rem 0;
+}
+
+.about-founders{
+    max-width: 900px;
+    margin-top: 0;
+}
+.about-founders h3{
+    margin-bottom: 0.5rem;
+}
+.about-founders h4 {
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.portrait{
+    margin-top: 2rem;
+    border-radius:100%;
+    max-width: 10vw;
+}
+
+@media screen and (max-width: 700px){
+    .portrait{max-width: 40vw;}
+}
+
+.justify-start{
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+footer{
+    background-color: #F85737;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.icons{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 0.5rem;
+}
+
+.icon{
+    width: 2rem;
+    height:2rem;
+    margin: 0.75rem;
+}
+.smaller{
+    font-size: 0.75rem;
+    color: white;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    font-weight: 300;
+    margin-right: 0.5rem;
+}
