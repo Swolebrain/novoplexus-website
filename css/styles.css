@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Avenir';
-    src: url('../res/fonts/AvenirLTStd-Light.otf') format('opentype');
+    src: url('../res/fonts/AvenirLTStd-Light.otf') format('embedded-opentype');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'Avenir';
-    src: url('../res/fonts/AvenirLTStd-Heavy.otf') format('opentype');
+    src: url('../res/fonts/AvenirLTStd-Heavy.otf') format('embedded-opentype');
     font-weight: 700;
     font-style: normal;
 }
@@ -169,6 +169,26 @@ nav{
     -ms-flex-align: center;
     align-items: center;
     padding: 0 2rem 0 2rem;
+
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .col{
+        display: block !important;
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
+        -ms-flex: none;
+    }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active), (max-width: 500px) {
+    .col {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.col > * {
+    max-width: 100% !important;
 }
 
 .content__vector{

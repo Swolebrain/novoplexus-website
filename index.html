@@ -176,17 +176,16 @@
         }
         function getFormJSON(){
             return {
-                text: `
-                    <h3>Sender name: ${document.getElementById('name').value}</h3>
-                    <h3>Sender email: ${document.getElementById('email').value}</h3>
-                    <br><br>
-                    <h3>Questions:</h3> <br>
-                    <p>${document.getElementById('questions').value}</p>
-                    <br><br>
-                    <h3>Frustrations:</h3> <br>
-                    <p>${document.getElementById('frustrations').value}</p>
-                `
-            }
+                text:
+                    '<h3>Sender name: ' + document.getElementById('name').value + '</h3>' +
+                    '<h3>Sender email: ' + document.getElementById('email').value + '</h3>' +
+                    '<br><br>' +
+                    '<h3> Questions:</h3> <br>' +
+                    '<p>' + document.getElementById('questions').value + '</p>' +
+                    '<br><br>' +
+                    '<h3> Frustrations: </h3> <br>' +
+                    '<p>' + document.getElementById('frustrations').value + '</p>'
+            };
         }
     </script>
 </body>
