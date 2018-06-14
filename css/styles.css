@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Avenir';
-    src: url('../res/fonts/AvenirLTStd-Light.otf') format('embedded-opentype');
+    src: url('fonts/AvenirLTStd-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'Avenir';
-    src: url('../res/fonts/AvenirLTStd-Heavy.otf') format('embedded-opentype');
+    src: url('fonts/AvenirLTStd-Heavy.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
 }
@@ -20,6 +20,10 @@ body{
     font-family: Avenir;
     font-size: calc(16px);
     overflow-x: hidden;
+}
+::-webkit-input-placeholder, :-ms-input-placeholder,:-moz-placeholder,::-moz-placeholder,
+::-webkit-input-placeholder, :-ms-input-placeholder,:-moz-placeholder,::-moz-placeholder{
+    font-family: Avenir;
 }
 
 h1{
